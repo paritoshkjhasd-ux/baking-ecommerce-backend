@@ -1,0 +1,21 @@
+# ── Web framework ────────────────────────────────────────────
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+python-multipart==0.0.9       # needed for form/file uploads
+
+# ── MongoDB (async) ───────────────────────────────────────────
+pymongo==4.7.2
+motor==3.4.0                  # async Motor driver wraps PyMongo
+
+# ── Authentication ────────────────────────────────────────────
+python-jose[cryptography]==3.3.0   # JWT encode / decode
+passlib[bcrypt]==1.7.4             # password hashing
+
+# ── Configuration ─────────────────────────────────────────────
+pydantic-settings==2.2.1      # load .env into typed Settings model
+python-decouple==3.8          # alternative env loader (assignment requirement)
+
+# ── Testing (Week 8) ──────────────────────────────────────────
+pytest==8.2.0
+httpx==0.27.0                 # async test client for FastAPI
+pytest-asyncio==0.23.6
