@@ -110,7 +110,7 @@ The API will be available at:
 
 ---
 
-## Auth Endpoints (Week 2)
+## Auth Endpoints
 
 | Method | URL | Auth required | Description |
 |--------|-----|---------------|-------------|
