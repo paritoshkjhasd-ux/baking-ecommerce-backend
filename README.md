@@ -141,15 +141,3 @@ python create_admin.py
 ```
 
 ---
-
-## Weekly Progress
-
-- [x] **Week 1** — Project setup, FastAPI app, MongoDB connection
-- [x] **Week 2** — User authentication (JWT + bcrypt)
-- [ ] **Week 3** — Admin RBAC + Product models
-- [ ] **Week 4** — File upload & image management
-- [ ] **Week 5** — Public product APIs + Shopping cart
-- [ ] **Week 6** — Order management
-- [ ] **Week 7** — Reviews & ratings
-- [ ] **Week 8** — Testing, docs & deployment prep
-- [ ] **Week 9** — Azure deployment (App Service + Cosmos DB)
